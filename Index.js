@@ -39,7 +39,7 @@ app.get('/consultaValidades/:mes/:ano', (req, res) => {
 			if (!err) {
 				//console.log(result);
 				return res.json(result);
-			}
+			} 
 		}
 	);
 });
